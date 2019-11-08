@@ -262,14 +262,12 @@ function handleInactiveUser() {
 	document.addEventListener('touchstart', clearInactiveTimeout);
 }
 
-/*
 function startFauxClicking() {
 	setTimeout(function() {
 		fauxClick(anime.random(cW * 0.2, cW * 0.8), anime.random(cH * 0.2, cH * 0.8));
 		startFauxClicking();
-	}, anime.random(200, 900));
+	}, anime.random(3200, 3900));
 }
-*/
 
 function fauxClick(x, y) {
 	var fauxClick = new Event('mousedown');
@@ -281,3 +279,7 @@ function fauxClick(x, y) {
 $('#toggle').click(function() {
 	$(this).toggleClass('on');
 });
+
+setTimeout(() => {
+	startFauxClicking();
+}, 3200);
