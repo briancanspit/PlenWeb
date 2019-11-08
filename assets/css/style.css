@@ -77,10 +77,6 @@ svg #bgg {
 	background: transparent;
 }
 
-.info {
-	margin-bottom: 10%;
-}
-
 .navbar-d .navbar-nav {
 	font-size: 15px;
 	color: #fff;
@@ -171,8 +167,8 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
-	.info {
-		margin-bottom: 10%;
+	.row {
+		margin-bottom: 20% !important;
 	}
 }
 
@@ -181,8 +177,8 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
-	.info {
-		margin-bottom: 10%;
+	.row {
+		margin-bottom: 20% !important;
 	}
 }
 
@@ -191,8 +187,8 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
-	.info {
-		margin-bottom: 10%;
+	.row {
+		margin-bottom: 20% !important;
 	}
 }
 
