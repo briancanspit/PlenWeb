@@ -13,7 +13,7 @@ body {
 	margin: 0;
 	height: 100%;
 	background: #a34a28;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .preloader {
@@ -115,7 +115,6 @@ svg #bgg {
 
 .header-image {
 	padding-top: 50px;
-	padding-bottom: 20%;
 	width: 100%;
 }
 
@@ -168,9 +167,6 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
-	.row {
-		margin-bottom: 20% !important;
-	}
 }
 
 /* Small devices (portrait tablets and large phones, 650px0px and up) */
@@ -178,18 +174,12 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
-	.row {
-		margin-bottom: 20% !important;
-	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.left {
 		margin-top: 20px;
-	}
-	.row {
-		margin-bottom: 20% !important;
 	}
 }
 
