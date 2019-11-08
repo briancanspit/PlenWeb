@@ -171,6 +171,9 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
+	.info {
+		margin-bottom: 10%;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 650px0px and up) */
@@ -178,12 +181,18 @@ svg #bgg {
 	.left {
 		margin-top: 20px;
 	}
+	.info {
+		margin-bottom: 10%;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.left {
 		margin-top: 20px;
+	}
+	.info {
+		margin-bottom: 10%;
 	}
 }
 
