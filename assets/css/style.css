@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+body {
+	font-family: 'Secular One';
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	height: 100%;
+	background: #a34a28;
+	overflow: hidden;
+}
+
+.preloader {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.main-ctr {
+	opacity: 0;
+}
+
+.startGreet {
+	font-family: 'Nanum Brush Script', sans-serif;
+	color: #d9d9d9;
+	letter-spacing: 2px;
+	font-size: 45px;
+	font-weight: bold;
+	opacity: 0;
+	margin-top: -30px;
+}
+
+#startSvg {
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+svg #smile-up,
+svg #circle,
+svg #eye-to-left,
+svg #eye-to-right,
+svg #wink,
+svg #bgg {
+	visibility: hidden;
+}
+
+#c {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+}
+
+.navbar {
+	display: none;
+	background: transparent;
+	-o-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	transition: all 0.6s;
+	backface-visibility: hidden;
+}
+
+.navbar-inner {
+	background: transparent;
+}
+
+.navbar.navbar-no-bg {
+	background: transparent;
+}
+
+.navbar-d .navbar-nav {
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar-d .navbar-nav .nav-link {
+	color: #ddf796;
+	border: 0;
+}
+.navbar-d .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.navbar-d .navbar-nav .nav-link:focus {
+	color: #fff;
+	outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.head-text {
+	font-family: 'Nanum Brush Script';
+	margin-bottom: -30px;
+	color: #ddf796;
+}
+
+.details {
+	padding: 50px 5px 0 5px;
+}
+
+.download-buttons {
+	padding-top: 30px;
+}
+
+.header-image {
+	padding-top: 50px;
+	width: 100%;
+}
+
+.btn {
+	border-color: white !important;
+	color: rgb(0, 0, 0, 0.8) !important;
+	background: #ddf796;
+}
+
+.btn:hover {
+	cursor: no-drop !important;
+	background: #fff !important;
+	color: #000 !important;
+}
+
+.navbar-toggler {
+	border: none;
+	outline: none !important;
+}
+
+#toggle {
+	width: 28px;
+	height: 30px;
+	margin: 10px auto;
+}
+
+#toggle div {
+	width: 100%;
+	height: 5px;
+	background: white;
+	margin: 4px auto;
+	transition: all 0.3s;
+	backface-visibility: hidden;
+}
+
+#toggle.on .one {
+	transform: rotate(45deg) translate(5px, 5px);
+}
+
+#toggle.on .two {
+	opacity: 0;
+}
+
+#toggle.on .three {
+	transform: rotate(-45deg) translate(7px, -8px);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.left {
+		margin-top: 20px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 650px0px and up) */
+@media only screen and (min-width: 600px) {
+	.left {
+		margin-top: 20px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.left {
+		margin-top: 20px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.left {
+		margin-top: 75px;
+	}
+	.btn {
+		font-size: 20px;
+	}
+	.navbar-nav {
+		margin-right: 78px;
+	}
+	.info {
+		margin-top: 40px;
+	}
+	.logo {
+		margin-left: 160px;
+	}
+	.head-text {
+		font-family: 'Nanum Brush Script';
+		margin-bottom: -10px;
+		font-weight: bold;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.left {
+		margin-top: 75px;
+	}
+	.btn {
+		font-size: 20px;
+	}
+	.navbar-nav {
+		margin-right: 78px;
+	}
+	.info {
+		margin-top: 40px;
+	}
+	.logo {
+		margin-left: 160px;
+	}
+	.head-text {
+		font-family: 'Nanum Brush Script';
+		margin-bottom: -10px;
+		font-weight: bold;
+	}
+}
